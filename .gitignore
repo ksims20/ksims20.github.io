@@ -21,3 +21,25 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Ignore large files
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+
+# Ignore large directories
+/bigfiles/
+/videos/
+
+# Ignore specific files generated during development
+*.log
+*.log.*
+*.db
+*.sqlite
+
+# Ignore temporary files
+.tmp/
+.temp/
