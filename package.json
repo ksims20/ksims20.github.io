@@ -2,14 +2,19 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ksims20.github.io/", 
+  "homepage": "https://ksims20.github.io/",
   "dependencies": {
+    "@ionic/react": "^7.8.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.15.3",
+    "ionicons": "^7.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
+    "react-vertical-timeline-component": "^3.6.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.1.1"
   }
 }

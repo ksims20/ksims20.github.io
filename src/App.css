@@ -1,1 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+body{
+    background-color: #0A192F;
+    color: #58E0C0;
+    font-family: "Inter",sans-serif;
+}
+
+.Topcontainer{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#LetterK{
+    font-size:32px;
+    margin: 0;
+  }
+
+#circle{
+    border: 2px solid #58E0C0;
+    border-radius: 80%;
+    padding-left: 10px;
+    padding-right: 12px;
+    margin:0px;
+}
+  
+.navbar-nav{
+    list-style-type:none;
+    display:flex;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-right: 20px;
+    font-size:20px;
+  }
+.nav-item{
+    margin:0;
+}
+
+#HomeButton{
+    display:inline-block;
+    border:none;
+    border-radius:10%;
+    background-color: #58E0C0;
+    height: 25px;
+    font-size: 16px;
+}
+
+#Ion{
+    color:#58E0C0;
+    font-size: 24px;
+}
+
+#Ion:hover{
+    color:white;
+}
+
+a{
+    color: #58E0C0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+a:hover{
+    padding-left:2px;
+    padding-right:2px;
+    color:white;
+}
+
+.CenterContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 72vh;
+    padding-left: 22%;
+}
+
+/* Timeline.js page Start */
+
+#TimeHeader{
+    display:flex;
+    justify-content: center;
+    padding-left: 20px;
+    margin: 20px;
+}
+
+.bold-date{
+    font-weight: bold;
+}
+
+
+/*about.js page start */
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.about-left {
+    flex: 1;
+    padding-right: 45px;
+}
+
+.about-right {
+    flex: 1;
+}
+
+.about-photo {
+    width: 100%;
+    max-width:800px;  
+    height: 500px;
+    border:solid 2px #58E0C0;
+    border-radius: 8px;  
+    margin-bottom:10px;
+}
+
+.logo{
+    padding-right: 15px;
+}
+
+.logo:hover{
+    padding-left:2px;
+    padding-right:8px;
+    color:white;
+}
+
+.whiteText{
+    color:white;
+    font-weight: bold;
+}
+
+.arrow-list {
+    columns:4;
+    column-gap:15px;
+    color: white;
+    list-style-type:none;
+}
+
+.arrow-list li{
+    font-size:18px;
+
+    padding-bottom: 10px;
+}
+
+.arrow-list li::before{
+    content: "➤";
+    color:#58E0C0;
+    margin-right: 5px;
+    
+}
