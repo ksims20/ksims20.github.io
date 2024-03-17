@@ -150,7 +150,7 @@ const AntCards = () => (
       hoverable
       style={{ width: 400 }}
       cover={
-      <video controls src={`${process.env.PUBLIC_URL}/TimeLapseFinal.mp4`} style={{ width: '100%', height: '100%'}} 
+      <video controls src={`${process.env.PUBLIC_URL}/TimeLapse.mp4`} style={{ width: '100%', height: '100%'}} 
       />}
     >
       <Meta
