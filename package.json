@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ksims20.github.io/ksims20.github.io",
+  "homepage": "https://ksims20.github.io/",
   "dependencies": {
     "@ionic/react": "^7.8.0",
     "@testing-library/jest-dom": "^5.17.0",
