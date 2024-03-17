@@ -29,6 +29,7 @@ yarn-error.log*
 *.mov
 *.zip
 *.tar.gz
+public/*.mp4
 
 # Ignore large directories
 /bigfiles/
