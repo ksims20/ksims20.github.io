@@ -24,9 +24,6 @@ yarn-error.log*
 
 
 # Ignore large files
-*.mp4
-*.avi
-*.mov
 *.zip
 *.tar.gz
 public/*.mp4
