@@ -1,10 +1,14 @@
 import React from "react";
 import TopContainer from "./TopNavBar";
 import { IonIcon } from "@ionic/react";
-import { logoGithub, logoLinkedin } from "ionicons/icons";
+import { logoGithub, logoLinkedin, mailOutline } from "ionicons/icons";
 import "./App.css";
 
 const About = () => {
+  const sendEmail = () => {
+    window.location.href = "mailto:simkamr12@gmail.com";
+  }
+
   return (
     <div>
       <TopContainer />
@@ -58,6 +62,8 @@ const About = () => {
             className="about-photo"
           />
             <br></br>
+            <h2 style={{color:'white'}}>Contact me: </h2>
+            <div className="contact-icons">
             <a
             className="logo"
             style={{ fontSize: "44px" }}
@@ -77,6 +83,11 @@ const About = () => {
           >
             <IonIcon icon={logoLinkedin} className="linkedin-icon" />
           </a>
+          <div onClick={sendEmail} className="logo" style={{ fontSize: "44px" }}>
+            <IonIcon icon={mailOutline} className="email-icon" />
+           </div>
+
+          </div>
         </div>
       </div>
     </div>
