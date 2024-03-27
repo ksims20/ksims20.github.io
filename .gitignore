@@ -41,3 +41,5 @@ public/*.mp4
 # Ignore temporary files
 .tmp/
 .temp/
+# Local Netlify folder
+.netlify
