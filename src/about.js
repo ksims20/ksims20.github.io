@@ -31,8 +31,8 @@ const About = () => {
             
           }}>
             Hello! I'm <span className="whiteText">Kamren Sims</span>,a recent Computer Science graduate with a passion for front-end development and clean, accessible design.  My interest in
-             <span className="whiteText">Web Development </span> began during my junior year of College (2022/2023), where I took <span className="whiteText">New Media 231 - Introductory Interactive Media</span>, 
-            <span className="whiteText"> CSCI 344 - Advanced Web Technology </span>, and<span className="whiteText">CSCI 338 - Software enginneering. </span> Through these courses, I discovered the world
+             <span className="whiteText"> Web Development </span> began during my junior year of College (2022/2023), where I took <span className="whiteText">New Media 231 - Introductory Interactive Media</span>, 
+            <span className="whiteText"> CSCI 344 - Advanced Web Technology </span>, and<span className="whiteText"> CSCI 338 - Software enginneering. </span> Through these courses, I discovered the world
             of <span className="whiteText"> Front-end Development / UX UI Design. </span> Since then, my passion for designing 
             and building web Applications has continued to grow. I've led personal projects from design to deployment
             and am always looking for new ways to improve my skills and contribute to impactful software. 
