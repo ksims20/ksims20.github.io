@@ -52,15 +52,8 @@ import { homeOutline } from 'ionicons/icons';
 const TopNavBar = () => {
   return (
     <div className="Topcontainer">
-      <span id="circle">
-        <a
-          href="https://www.linkedin.com/in/kamren-sims-845844258/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p id="LetterK">K</p>
-        </a>
-      </span>
+      
+
       <nav className="navbar">
         <ul className="navbar-nav">
           <li className="nav-item">

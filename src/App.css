@@ -11,30 +11,23 @@ body{
     align-items:center;
     justify-content: space-between;
     padding: 10px;
+    
 }
 
-#LetterK{
-    font-size:32px;
-    margin: 0;
-    color: white;
-  }
-
-#circle{
-    border: 2px solid #58E0C0;
-    border-radius: 80%;
-    padding-left: 10px;
-    padding-right: 12px;
-    margin:0px;
+.navbar{
+    width:100%;
 }
-  
+
 .navbar-nav{
     list-style-type:none;
     display:flex;
     justify-content: flex-end;
-    gap: 40px;
-    margin-right: 20px;
+    gap: 30px;
+    margin: 0;
     font-size:20px;
+    padding:0;
   }
+
 .nav-item{
     margin:0;
 }
@@ -54,7 +47,8 @@ body{
 }
 
 #Ion:hover{
-    color:white;
+    color: white;
+    transition: color 0.3s ease;
 }
 
 a{
@@ -64,10 +58,11 @@ a{
 }
 
 a:hover{
-    padding-left:2px;
-    padding-right:2px;
-    color:white;
+    color: white;
+    transition: color 0.3s ease; 
 }
+
+
 
 .CenterContainer{
     display:flex;
@@ -78,19 +73,49 @@ a:hover{
     padding-left: 22%;
 }
 
+/* AntCards.js page Start */
+.card-hover:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease-in-out; 
+  }
+
 /* Timeline.js page Start */
 
 #TimeHeader{
-    display:flex;
-    justify-content: center;
-    padding-left: 20px;
-    margin: 20px;
+    text-align: center;
+    color: #58E0C0;
+    font-size: 2.5rem;
+    margin-top: 20px;
 }
 
 .bold-date{
     font-weight: bold;
 }
 
+.vertical-timeline-element-title {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.vertical-timeline-element p {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.vertical-timeline-element .vertical-timeline-element-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.vertical-timeline-element:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 /*about.js page start */
 
@@ -106,8 +131,10 @@ a:hover{
     padding-right: 45px;
 }
 
-.about-right {
-    flex: 1;
+.about-right h2 {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
 }
 
 .about-photo {
@@ -121,13 +148,14 @@ a:hover{
 }
 
 .logo{
-    padding-right: 15px;
+    color: #58E0C0;
+    transition: transform 0.2s ease, color 0.3s ease;
+    font-size: 44px;
 }
 
 .logo:hover{
-    padding-left:2px;
-    padding-right:8px;
-    color:white;
+    transform: scale(1.1);
+    color: white;
 }
 
 .whiteText{
@@ -156,6 +184,121 @@ a:hover{
 }
 
 .contact-icons{
-    display: inline-flex;
-    gap: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/*resume.js */
+
+.resume-container{
+    padding: 20px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.download-link{
+    text-decoration: none;
+    padding: 8px 20px;
+    color: #58E0C0;  
+    border: 2px solid transparent;  
+    font-size: 18px;
+    display: inline-block;
+    transition: color 0.3s ease; 
+}
+
+.download-link:hover{
+    color: white !important; 
+}
+
+/* START OF MOBILE */
+
+/*about.js Mobile */
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-left,
+    .about-right {
+        padding: 0;
+    }
+
+    .about-photo {
+        height: auto;
+        max-height: 400px;
+    }
+
+    .contact-icons {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+/*home.js Mobile */
+
+@media (max-width: 768px) {
+    .CenterContainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    h1 {
+        font-size: 40px; 
+    }
+
+    h2 {
+        font-size: 24px; 
+    }
+
+    h4 {
+        font-size: 18px; 
+    }
+}
+
+/*projects.js Mobile */
+
+@media (max-width: 768px) {
+    .your-grid-class {
+      grid-template-columns: 1fr;  /* Stack cards on small screens */
+    }
+  }
+  
+
+
+/*resume.js Mobile */
+
+@media (max-width: 768px) {
+    .download-link {
+        font-size: 16px; /* Adjust text size on mobile */
+        padding: 6px 18px; /* Adjust padding for smaller screens */
+    }
+}
+
+/*timeline.js Mobile */
+@media (max-width: 768px) {
+    .vertical-timeline-element {
+        margin-bottom: 30px;
+    }
+
+    #TimeHeader {
+        font-size: 2rem;
+    }
+
+    .vertical-timeline-element-title {
+        font-size: 1.1rem;
+    }
+
+    .vertical-timeline-element p {
+        font-size: 0.9rem;
+    }
+
+    /* Reduce padding for better layout on mobile */
+    .vertical-timeline-element-content {
+        padding: 10px;
+    }
 }

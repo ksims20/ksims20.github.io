@@ -25,34 +25,30 @@ const About = () => {
           </h1>
           <p
           style={{
-            fontSize:"18px",
+            fontSize:"22px",
             lineHeight:"2",
             color:"#58E0C0"
             
           }}>
-            Hello! I'm <span className="whiteText">Kamren Sims</span>,and as a student from the University of North Carolina at Asheville, 
-            I have graduated with a degree in <span className="whiteText">
-            Computer science with a concentration in Information Systems. </span> My interest for <span className="whiteText">web
-            development </span> started back in my Junior year of College "2022/2023", where I took <span className="whiteText">New Media 231 - Introductory Interactive Media</span>, and 
-            <span className="whiteText"> CSCI 344 - Advanced Web Technology </span>, additionally <span className="whiteText">CSCI 338 - Software enginneering. </span> It was through these 
-            classes that I've learned the term <span className="whiteText"> "Front-end Development / UX UI Design." </span> Since then my passion for designing 
-            and developing web Applications has continued to grow. In the future I hope to hold the title: <span className="whiteText">"Front-end Developer." </span>
+            Hello! I'm <span className="whiteText">Kamren Sims</span>,a recent Computer Science graduate with a passion for front-end development and clean, accessible design.  My interest in
+             <span className="whiteText">Web Development </span> began during my junior year of College (2022/2023), where I took <span className="whiteText">New Media 231 - Introductory Interactive Media</span>, 
+            <span className="whiteText"> CSCI 344 - Advanced Web Technology </span>, and<span className="whiteText">CSCI 338 - Software enginneering. </span> Through these courses, I discovered the world
+            of <span className="whiteText"> Front-end Development / UX UI Design. </span> Since then, my passion for designing 
+            and building web Applications has continued to grow. I've led personal projects from design to deployment
+            and am always looking for new ways to improve my skills and contribute to impactful software. 
+            <span className="whiteText"> Currently, I'm seeking a  <b>Software Engineer I </b> or <b>Front-End Developer </b> role </span> where I can grow, collaborate, and build meaningful projects.
             </p>
-            <p style={{ fontSize:"18px", paddingTop:"20px", paddingBottom:"40px"}}>
-            Here are some of the few technologies that I've recently used to grow:
-            
+            <p style={{ fontSize:"24px", paddingTop:"20px", paddingBottom:"40px"}}>
+            Here are some of the technologies I've been working with recently:
           </p>
-            <ul className="arrow-list">
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Firebase</li>
-                <li>Github</li>
-                <li>Java</li>
 
-            </ul>
+          <ul style={{ fontSize: "20px", lineHeight: "2.2", marginTop: "20px", marginBottom: "40px", color:"#58E0C0" }}>
+              <li><strong style={{ color: "white" }}>Languages:</strong> Java, JavaScript (ES6+), HTML5, CSS3, TypeScript, PHP</li>
+              <li><strong style={{ color: "white" }}>Frameworks & Libraries:</strong> React, React Native, Node.js, Prisma</li>
+              <li><strong style={{ color: "white" }}>Cloud & Databases:</strong> Firebase, Google Cloud, MySQL</li>
+              <li><strong style={{ color: "white" }}>Tools:</strong> Git & GitHub, NPM, Docker, Jira, Figma, Adobe Suite</li>
+              <li><strong style={{ color: "white" }}>Focus:</strong> Front-End Development, UX/UI Design, API Integration</li>
+          </ul>
 
         </div>
         <div className="about-right">
