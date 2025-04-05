@@ -1,2 +1,4 @@
 public/TimeLapseFinal.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+public/*.mp4 filter=lfs diff=lfs merge=lfs -text
+build/*.mp4 filter=lfs diff=lfs merge=lfs -text
