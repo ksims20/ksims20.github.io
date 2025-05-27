@@ -11,7 +11,7 @@ const Resume = () => {
                 <iframe
                     title="Resume"
                     className="resume-pdf"
-                    src={`${process.env.PUBLIC_URL}/Kamren Sims CS Resume Revised.pdf`}
+                    src={`${process.env.PUBLIC_URL}/Kamren Sims CS Resume.pdf`}
                     style={{ 
                         margin:'0 auto', 
                         width: '100%',
@@ -21,7 +21,7 @@ const Resume = () => {
                 />
                 
                 <a
-                 href={`${process.env.PUBLIC_URL}/Kamren Sims CS Resume Revised.pdf`}
+                 href={`${process.env.PUBLIC_URL}/Kamren Sims CS Resume.pdf`}
                  download="Kamren_Sims_Resume"
                  className="download-link"
                  style={{ color: '#58E0C0', fontSize: '18px', marginTop: '20px', display: 'block', textAlign: 'center' }}
