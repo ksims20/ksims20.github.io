@@ -212,6 +212,44 @@ a:hover{
     color: white !important; 
 }
 
+/* Preloader for home.js */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0a192f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  z-index: 9999;
+  opacity: 1;
+}
+
+.typewriter {
+  display: inline-block;
+  max-width: 26.5ch;
+  overflow: hidden;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  animation: typing 2.5s steps(20, end), blinkCaret 0.75s step-end infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blinkCaret {
+  0%, 100% { border-color: transparent }
+  50% { border-color: white }
+}
+
 /* START OF MOBILE */
 
 /*about.js Mobile */

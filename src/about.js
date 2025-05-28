@@ -3,6 +3,7 @@ import TopContainer from "./TopNavBar";
 import { IonIcon } from "@ionic/react";
 import { logoGithub, logoLinkedin, mailOutline } from "ionicons/icons";
 import "./App.css";
+import { motion } from 'framer-motion';
 
 const About = () => {
   const sendEmail = () => {
@@ -10,6 +11,13 @@ const About = () => {
   }
 
   return (
+    <motion.div
+          className="App"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.5 }}
+        >
     <div>
       <TopContainer />
       <div className="about-container">
@@ -87,6 +95,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 };
 
