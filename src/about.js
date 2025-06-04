@@ -44,18 +44,18 @@ const About = () => {
             of <span className="whiteText"> Front-end Development / UX UI Design. </span> Since then, my passion for designing 
             and building web Applications has continued to grow. I've led personal projects from design to deployment
             and am always looking for new ways to improve my skills and contribute to impactful software. 
-            <span className="whiteText"> Currently, I'm seeking a  <b>Software Engineer I </b> or <b>Front-End Developer </b> role </span> where I can grow, collaborate, and build meaningful projects.
+            <span className="whiteText"> Currently, I'm seeking a  <b>Software Engineer I </b> or a <b> Full Stack Developer </b> role </span> where I can grow, collaborate, and build meaningful projects.
             </p>
             <p style={{ fontSize:"24px", paddingTop:"20px", paddingBottom:"40px"}}>
             Here are some of the technologies I've been working with recently:
           </p>
 
           <ul style={{ fontSize: "20px", lineHeight: "2.2", marginTop: "20px", marginBottom: "40px", color:"#58E0C0" }}>
-              <li><strong style={{ color: "white" }}>Languages:</strong> Java, JavaScript (ES6+), HTML5, CSS3, TypeScript, PHP</li>
-              <li><strong style={{ color: "white" }}>Frameworks & Libraries:</strong> React, React Native, Node.js, Prisma</li>
-              <li><strong style={{ color: "white" }}>Cloud & Databases:</strong> Firebase, Google Cloud, MySQL</li>
+              <li><strong style={{ color: "white" }}>Languages:</strong> Java, JavaScript (ES6+), HTML5, CSS3, SQL, PHP</li>
+              <li><strong style={{ color: "white" }}>Frameworks & Libraries:</strong> React, React Native, Node.js, Spring Boot</li>
+              <li><strong style={{ color: "white" }}>Cloud & Databases:</strong> Firebase, Azure, MySQL</li>
               <li><strong style={{ color: "white" }}>Tools:</strong> Git & GitHub, NPM, Docker, Jira, Figma, Adobe Suite</li>
-              <li><strong style={{ color: "white" }}>Focus:</strong> Front-End Development, UX/UI Design, API Integration</li>
+              <li><strong style={{ color: "white" }}>Focus:</strong> Full Stack Development, UX/UI Design</li>
           </ul>
 
         </div>
